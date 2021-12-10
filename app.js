@@ -31,10 +31,6 @@ let painting = false;
 let filling = false;
 
 function startPainting() {
-  painting = true;
-}
-
-function startPainting() {
   if (filling === false) {
     painting = true;
   }
