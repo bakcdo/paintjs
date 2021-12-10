@@ -31,7 +31,7 @@ let painting = false;
 let filling = false;
 
 function startPainting() {
-  if (filling === false) {
+  if (!filling) {
     painting = true;
   }
 }
